@@ -18,7 +18,7 @@ namespace Frontera.Catalogo.Personas
         {
             if (!IsPostBack)
             {
-                Enumeradores.EnumToListBox(typeof(CargoPersona), ddlCargo, true);
+                //Enumeradores.EnumToListBox(typeof(CargoPersona), ddlCargo, true);
             }
         }
 
@@ -51,14 +51,16 @@ namespace Frontera.Catalogo.Personas
         {
             try
             {
-                VOPersona persona = new VOPersona(txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, int.Parse(ddlCargo.SelectedValue), null, lblUrlFoto.InnerText);
+                VOPersona persona = new VOPersona(txtTelefono.Text, txtDireccion.Text, txtNombre.Text, txtCorreo.Text, null, null, lblUrlFoto.InnerText);
                 BLLPersona.Insertar(persona);
                 LimpiarFormulario();
                 Response.Redirect("ListarPersonas.aspx");
             }
             catch (Exception ex)
             {
-                ScriptManager.RegisterClientScriptBlock(this, GetType(), "Mensaje de Error", "alert('Se registró un error al realizar la operación');", true);
+                ScriptManager.RegisterClientScriptBlock(this, GetType(), 
+                    "Mensaje de Error", "alert('Se registró un error al realizar la operación"+ex.Message+ "');",
+                    true);
             }
         }
         public void LimpiarFormulario()
@@ -67,7 +69,6 @@ namespace Frontera.Catalogo.Personas
             txtDireccion.Text = "";
             txtTelefono.Text = "";
             txtCorreo.Text = "";
-            ddlCargo.SelectedIndex = 0;
             lblUrlFoto.InnerText = "";
             imgFotoPersona.ImageUrl = "";
             btnGuardar.Visible = false;

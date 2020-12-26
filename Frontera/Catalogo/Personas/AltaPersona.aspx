@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
-            <h3>Alta Personas</h3>
+            <h3>Alta Cliente</h3>
             <hr />
         </div>
 
@@ -45,15 +45,6 @@
                 </div>
             </div>
         </div>
-        <div class="row form-group">
-            
-                <label for="<%=ddlCargo.ClientID %>">Cargo:</label>
-                <asp:DropDownList ID="ddlCargo" runat="server" CssClass="form-control" style="width:25%">
-                    <asp:ListItem Value="0" Text="Selecciona Cargo"></asp:ListItem>
-                </asp:DropDownList>
-                <asp:RequiredFieldValidator ID="rfvddlCargo" ValidationGroup="Guardar" runat="server" CssClass="text-danger" ControlToValidate="ddlCargo" 
-                    InitialValue="0" ErrorMessage="Selecciona el cargo de la persona"></asp:RequiredFieldValidator>
-            </div>
         <div class="row form-inline">
             <div class="colo-md-12">
                 <label>Selecciona Foto:</label>

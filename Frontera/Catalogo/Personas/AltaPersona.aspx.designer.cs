@@ -105,24 +105,6 @@ namespace Frontera.Catalogo.Personas
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revtxtCorreo;
 
         /// <summary>
-        /// Control ddlCargo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCargo;
-
-        /// <summary>
-        /// Control rfvddlCargo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvddlCargo;
-
-        /// <summary>
         /// Control SubeImagen.
         /// </summary>
         /// <remarks>

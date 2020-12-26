@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Marina Coatza </title>
+    <title><%: Page.Title %> - MiLlanta </title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -50,7 +50,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Marina Coatza</a>
+                    <a class="navbar-brand" runat="server" href="~/">MiLlanta</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -61,11 +61,11 @@
                                 Catálogos<span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="~/Catalogo/Personas/AltaPersona.aspx" runat="server">Alta Personas</a></li>
+                                <li><a href="~/Catalogo/Personas/AltaPersona.aspx" runat="server">Alta Cliente</a></li>
                                 <li><a href="~/Catalogo/Barcos/AltaBarcos.aspx" runat="server">Alta Barcos</a></li>
                                 <li><a href="~/Salidas/AltaSalidas.aspx" runat="server">Alta Salidas</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="~/Catalogo/Personas/ListarPersonas.aspx" runat="server">Lista Personas</a></li>
+                                <li><a href="~/Catalogo/Personas/ListarPersonas.aspx" runat="server">Lista Clientes</a></li>
                                 <li><a href="~/Catalogo/Barcos/ListarBarcos.aspx" runat="server">Lista Barcos</a></li>
                                 <li><a href="~/Salidas/SalidasFinalizadas.aspx" runat="server">Salidas Finalizadas</a></li>
                                 <li role="separator" class="divider"></li>

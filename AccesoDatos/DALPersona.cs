@@ -25,7 +25,7 @@ namespace AccesoDatos
                 cmd.Parameters.Add("@Direccion", SqlDbType.VarChar).Value = persona.Direccion;
                 cmd.Parameters.Add("@Telefono", SqlDbType.VarChar).Value = persona.Telefono;
                 cmd.Parameters.Add("@Correo", SqlDbType.VarChar).Value = persona.Correo;
-                cmd.Parameters.Add("@Cargo", SqlDbType.Int).Value = persona.Cargo;
+                cmd.Parameters.Add("@Cargo", SqlDbType.Int).Value = 1;
                 cmd.Parameters.Add("@UrlFoto", SqlDbType.VarChar).Value = persona.UrlFoto;
                 r = cmd.ExecuteNonQuery();
             }
