@@ -7,7 +7,7 @@
     </style>
     <div class="container">
         <div class="row" style="margin-bottom: 18px">
-            <h3>Lista Personas</h3>
+            <h3>Lista Clientes</h3>
             <hr />
         </div>
         <div class="row col-md-10 col-md-offset-1">
@@ -23,7 +23,7 @@
                     <asp:BoundField HeaderText="Teléfono" ItemStyle-Width="100px" DataField="Telefono" />
                     <asp:BoundField HeaderText="Correo" ItemStyle-Width="120px" DataField="Correo" />
                     
-                    <%--<asp:ButtonField ButtonType="Button" ControlStyle-CssClass="btn btn-success btn-xs" Text="Seleccionar" CommandName="Select" />--%>
+                    <asp:ButtonField ButtonType="Button" ControlStyle-CssClass="btn btn-success btn-xs" Text="Seleccionar" CommandName="Select" />
                 </Columns>
             </asp:GridView>
         </div>

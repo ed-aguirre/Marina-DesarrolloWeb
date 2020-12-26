@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
      <div class="container">
         <div class="row">
-            <h3>Detalle Personas</h3>
+            <h3>Detalle Cliente</h3>
             <h4>ID:
                 <asp:Label ID="lblIdPersona" runat="server" Text=""></asp:Label></h4>
             <hr />
@@ -26,20 +26,12 @@
                 <dd>
                     <asp:Label ID="lblCorreo" runat="server" Text=""></asp:Label></dd>
                 <dt>
-                    <label for="<%=lblCargo.ClientID %>">Cargo:</label></dt>
-                <dd>
-                    <asp:Label ID="lblCargo" runat="server" Text=""></asp:Label></dd>
-                <dt>
-                    <label for="<%=chkPersonaDisponible.ClientID %>">Disponibilidad:</label></dt>
-                <dd>
-                    <asp:CheckBox ID="chkPersonaDisponible" runat="server" Enabled="false" Checked="true" /></dd>
-                <dt>
                     <label for="<%=imgFotoPersona %>">Foto:</label></dt>
                 <dd>
                     <asp:Image ID="imgFotoPersona" Width="200" Height="200" runat="server" /></dd>
             </dl>
             <div class="row" style="margin-bottom: 18px">
-                <h3>Lista Barcos</h3>
+                <h3>Lista Automóviles(?</h3>
                 <hr />
             </div>
             <div class="row col-md-10 col-md-offset-2">

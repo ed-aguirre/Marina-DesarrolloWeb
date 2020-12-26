@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="DALAuto.cs" />
     <Compile Include="DALBarco.cs" />
     <Compile Include="DALPersona.cs" />
     <Compile Include="DALSalida.cs" />

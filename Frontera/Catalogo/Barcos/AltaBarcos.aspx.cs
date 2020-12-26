@@ -16,7 +16,7 @@ namespace Frontera.Catalogo.Barcos
         {
             if (!IsPostBack)
             {
-                CatalogoOwners(ddlOwner);
+                //CatalogoOwners(ddlOwner);
             }
         }
 

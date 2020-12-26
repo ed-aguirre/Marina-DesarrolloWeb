@@ -25,17 +25,17 @@ namespace Frontera.Catalogo.Personas
                     VOPersona persona = BLLPersona.ConsultarPersona(idPersona);
                     CargarFormulario(persona);
                     CargarGrid(idPersona);
-                    disponibilidad = (bool)persona.Disponibilidad;
-                    if (disponibilidad)
-                    {
-                        lblIdPersona.ForeColor = System.Drawing.Color.Green;
-                        btnEliminar.Visible = true;
-                    }
-                    else
-                    {
-                        lblIdPersona.ForeColor = System.Drawing.Color.Red;
-                        btnEliminar.Visible = false;
-                    }
+                    //disponibilidad = (bool)persona.Disponibilidad;
+                    //if (disponibilidad)
+                    //{
+                    //    lblIdPersona.ForeColor = System.Drawing.Color.Green;
+                    //    btnEliminar.Visible = true;
+                    //}
+                    //else
+                    //{
+                    //    lblIdPersona.ForeColor = System.Drawing.Color.Red;
+                    //    btnEliminar.Visible = false;
+                    //}
                 }
             }
         }
@@ -62,8 +62,8 @@ namespace Frontera.Catalogo.Personas
             lblDireccion.Text = persona.Direccion;
             lblTelefono.Text = persona.Telefono;
             lblCorreo.Text = persona.Correo;
-            lblCargo.Text = Enum.GetName(typeof(CargoPersona), (int)persona.Cargo);
-            chkPersonaDisponible.Checked = (bool)persona.Disponibilidad;
+            //lblCargo.Text = Enum.GetName(typeof(CargoPersona), (int)persona.Cargo);
+            //chkPersonaDisponible.Checked = (bool)persona.Disponibilidad;
             imgFotoPersona.ImageUrl = persona.UrlFoto;
         }
     }
