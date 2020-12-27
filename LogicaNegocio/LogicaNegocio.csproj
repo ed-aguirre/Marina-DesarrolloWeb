@@ -45,6 +45,7 @@
     <Compile Include="BLLBarco.cs" />
     <Compile Include="BLLPersona.cs" />
     <Compile Include="BLLSalida.cs" />
+    <Compile Include="BLLTramite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

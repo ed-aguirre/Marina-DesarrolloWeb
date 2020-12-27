@@ -67,8 +67,8 @@
                                 <li><a href="~/Catalogo/Personas/ListarPersonas.aspx" runat="server">Lista Clientes</a></li>
                                 <li><a href="~/Catalogo/Autos/ListarAutos.aspx" runat="server">Lista Autos</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="~/Salidas/SalidasFinalizadas.aspx" runat="server">Rentar Auto</a></li>
-                                <li><a href="~/Salidas/AltaSalidas.aspx" runat="server">Devolver Auto</a></li>
+                                <li><a href="~/Tramites/RentarAuto.aspx" runat="server">Rentar Auto</a></li>
+                                <li><a href="~/Tramites/AutosRentados.aspx" runat="server">Autos en Renta</a></li>
                             </ul>
                         </li>
                         <li><a runat="server" href="~/About">Acerca de</a></li>

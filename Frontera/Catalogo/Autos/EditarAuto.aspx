@@ -5,7 +5,8 @@
             <h3>Actualizar Auto</h3>
             <h4>ID:
 				<asp:Label ID="lblAuto" runat="server" Text=""></asp:Label></h4>
-                <asp:Label ID="lblDisponible" runat="server" Text=""></asp:Label></h4>
+            <h4>
+				<asp:Label ID="lblDisponible" runat="server" Text=""></asp:Label></h4>
             <hr />
         </div>
         <div class="row form-group">

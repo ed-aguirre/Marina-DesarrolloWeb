@@ -62,6 +62,7 @@
     <Compile Include="DALBarco.cs" />
     <Compile Include="DALPersona.cs" />
     <Compile Include="DALSalida.cs" />
+    <Compile Include="DALTramite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

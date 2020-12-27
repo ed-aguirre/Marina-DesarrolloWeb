@@ -47,6 +47,8 @@
     <Compile Include="VOPersona.cs" />
     <Compile Include="VOSalida.cs" />
     <Compile Include="VOSalidaExtendida.cs" />
+    <Compile Include="VOTramite.cs" />
+    <Compile Include="VOTramiteExtendida.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
