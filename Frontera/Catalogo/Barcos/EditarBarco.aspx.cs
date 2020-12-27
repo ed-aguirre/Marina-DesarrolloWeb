@@ -143,5 +143,10 @@ namespace Frontera.Catalogo.Barcos
             lblUrlFoto.InnerText = barco.UrlFoto;
             imgFotoBarco.ImageUrl = barco.UrlFoto;
         }
+
+        protected void btnSubeImagen_Click1(object sender, EventArgs e)
+        {
+            //no sirve jeje
+        }
     }
 }

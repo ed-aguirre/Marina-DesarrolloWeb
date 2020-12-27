@@ -62,13 +62,13 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="~/Catalogo/Personas/AltaPersona.aspx" runat="server">Alta Cliente</a></li>
-                                <li><a href="~/Catalogo/Barcos/AltaBarcos.aspx" runat="server">Alta Barcos</a></li>
-                                <li><a href="~/Salidas/AltaSalidas.aspx" runat="server">Alta Salidas</a></li>
+                                <li><a href="~/Catalogo/Autos/AltaAuto.aspx" runat="server">Alta Auto</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="~/Catalogo/Personas/ListarPersonas.aspx" runat="server">Lista Clientes</a></li>
-                                <li><a href="~/Catalogo/Barcos/ListarBarcos.aspx" runat="server">Lista Barcos</a></li>
-                                <li><a href="~/Salidas/SalidasFinalizadas.aspx" runat="server">Salidas Finalizadas</a></li>
+                                <li><a href="~/Catalogo/Autos/ListarAutos.aspx" runat="server">Lista Autos</a></li>
                                 <li role="separator" class="divider"></li>
+                                <li><a href="~/Salidas/SalidasFinalizadas.aspx" runat="server">Rentar Auto</a></li>
+                                <li><a href="~/Salidas/AltaSalidas.aspx" runat="server">Devolver Auto</a></li>
                             </ul>
                         </li>
                         <li><a runat="server" href="~/About">Acerca de</a></li>

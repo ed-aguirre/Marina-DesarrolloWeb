@@ -107,6 +107,8 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Catalogo\Autos\AltaAuto.aspx" />
+    <Content Include="Catalogo\Autos\EditarAuto.aspx" />
+    <Content Include="Catalogo\Autos\ListarAutos.aspx" />
     <Content Include="Catalogo\Barcos\AltaBarcos.aspx" />
     <Content Include="Catalogo\Barcos\EditarBarco.aspx" />
     <Content Include="Catalogo\Barcos\ListarBarcos.aspx" />
@@ -190,6 +192,20 @@
     </Compile>
     <Compile Include="Catalogo\Autos\AltaAuto.aspx.designer.cs">
       <DependentUpon>AltaAuto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\Autos\EditarAuto.aspx.cs">
+      <DependentUpon>EditarAuto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogo\Autos\EditarAuto.aspx.designer.cs">
+      <DependentUpon>EditarAuto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\Autos\ListarAutos.aspx.cs">
+      <DependentUpon>ListarAutos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogo\Autos\ListarAutos.aspx.designer.cs">
+      <DependentUpon>ListarAutos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Catalogo\Barcos\AltaBarcos.aspx.cs">
       <DependentUpon>AltaBarcos.aspx</DependentUpon>

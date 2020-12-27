@@ -130,7 +130,7 @@ namespace AccesoDatos
             }
             return lista;
         }
-        public static List<VOAuto> ConsultarBarcoPorPersona(int idPersona, bool? disponibilidad)
+        public static List<VOAuto> ConsultarAutoPorPersona(int idPersona, bool? disponibilidad)
         {
             List<VOAuto> lista = new List<VOAuto>();
             DataSet ds = new DataSet();

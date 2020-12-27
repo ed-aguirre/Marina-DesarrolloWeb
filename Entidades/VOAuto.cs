@@ -34,6 +34,14 @@ namespace Entidades
             this.disponibilidad = disponibilidad;
             this.urlFoto = urlFoto;
         }
+        public VOAuto(string matricula, string marca, string anio, bool disponibilidad, string urlFoto)
+        {
+            this.matricula = matricula;
+            this.marca = marca;
+            this.anio = anio;
+            this.disponibilidad = disponibilidad;
+            this.urlFoto = urlFoto;
+        }
         public VOAuto(DataRow fila)
         {
             IdAuto= int.Parse(fila["IdAuto"].ToString());

@@ -11,8 +11,26 @@ namespace Frontera.Catalogo.Autos
 {
 
 
-    public partial class AltaAuto
+    public partial class EditarAuto
     {
+
+        /// <summary>
+        /// Control lblAuto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAuto;
+
+        /// <summary>
+        /// Control lblDisponible.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDisponible;
 
         /// <summary>
         /// Control txtMatricula.
@@ -24,22 +42,22 @@ namespace Frontera.Catalogo.Autos
         protected global::System.Web.UI.WebControls.TextBox txtMatricula;
 
         /// <summary>
-        /// Control RequiredFieldValidator1.
+        /// Control rfvTxtMatricula.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTxtMatricula;
 
         /// <summary>
-        /// Control RequiredExpressionValidator1.
+        /// Control revTxtMatricula.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RequiredExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTxtMatricula;
 
         /// <summary>
         /// Control txtMarca.
@@ -69,22 +87,22 @@ namespace Frontera.Catalogo.Autos
         protected global::System.Web.UI.WebControls.TextBox txtAnio;
 
         /// <summary>
-        /// Control revTxtAnio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator revTxtAnio;
-
-        /// <summary>
         /// Control rfvTxtAnio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator rfvTxtAnio;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTxtAnio;
+
+        /// <summary>
+        /// Control revTxtAnio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTxtAnio;
 
         /// <summary>
         /// Control SubeImagen.
@@ -130,5 +148,14 @@ namespace Frontera.Catalogo.Autos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnGuardar;
+
+        /// <summary>
+        /// Control btnEliminar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnEliminar;
     }
 }
