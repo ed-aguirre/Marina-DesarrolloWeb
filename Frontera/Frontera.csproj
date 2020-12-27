@@ -172,6 +172,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="Tramites\AutosRentados.aspx" />
+    <Content Include="Tramites\DevolucionesFinalizadas.aspx" />
     <Content Include="Tramites\RentarAuto.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -324,6 +325,13 @@
     </Compile>
     <Compile Include="Tramites\AutosRentados.aspx.designer.cs">
       <DependentUpon>AutosRentados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tramites\DevolucionesFinalizadas.aspx.cs">
+      <DependentUpon>DevolucionesFinalizadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tramites\DevolucionesFinalizadas.aspx.designer.cs">
+      <DependentUpon>DevolucionesFinalizadas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tramites\RentarAuto.aspx.cs">
       <DependentUpon>RentarAuto.aspx</DependentUpon>

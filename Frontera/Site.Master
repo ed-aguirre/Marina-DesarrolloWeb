@@ -42,7 +42,7 @@
         <script src="/Scripts/moment-with-locales.js"></script>
         <script src="/Scripts/jquery.datetimepicker.full.min.js"></script>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-secondary">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,10 +69,11 @@
                                 <li role="separator" class="divider"></li>
                                 <li><a href="~/Tramites/RentarAuto.aspx" runat="server">Rentar Auto</a></li>
                                 <li><a href="~/Tramites/AutosRentados.aspx" runat="server">Autos en Renta</a></li>
+                                <li><a href="~/Tramites/DevolucionesFinalizadas.aspx" runat="server">Devoluciones</a></li>
                             </ul>
                         </li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                        <%--<li><a runat="server" href="~/About">Acerca de</a></li>
+                        <li><a runat="server" href="~/Contact">Contacto</a></li>--%>
                     </ul>
                 </div>
             </div>
@@ -82,7 +83,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Renta de Autos MiLlanta</p>
             </footer>
         </div>
 

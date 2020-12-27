@@ -31,8 +31,8 @@
                     <asp:Image ID="imgFotoPersona" Width="200" Height="200" runat="server" /></dd>
             </dl>
             <div class="row" style="margin-bottom: 18px">
-                <h3>Lista Automóviles(?</h3>
-                <hr />
+                <%--<h3>Lista Automóviles(?</h3>
+                <hr />--%>
             </div>
             <div class="row col-md-10 col-md-offset-2">
                 <asp:GridView ID="gvBarcos"
